@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Cart</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>SmartShop</h1>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+
+</nav>
+
+</header>
+
+<h2>Your Cart</h2>
+
+<div id="cartItems"></div>
+
+<h3 id="totalPrice"></h3>
+
+<button onclick="clearCart()">Clear Cart</button>
+
+
+<script>
+
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+let container = document.getElementById("cartItems");
+
+let total = 0;
+
+cart.forEach((item,index)=>{
+
+container.innerHTML += `
+<p>${item.name} - ₹${item.price}
+<button onclick="removeItem(${index})">Remove</button>
+</p>
+`;
+
+total += item.price;
+
+});
+
+document.getElementById("totalPrice").innerText = "Total: ₹"+total;
+
+
+function removeItem(index){
+
+cart.splice(index,1);
+
+localStorage.setItem("cart",JSON.stringify(cart));
+
+location.reload();
+
+}
+
+function clearCart(){
+
+localStorage.removeItem("cart");
+
+location.reload();
+
+}
+
+</script>
+
+<footer class="footer">
+
+<div class="footer-container">
+
+<div class="footer-section">
+
+<h3>SmartShop</h3>
+
+<p>Your one-stop shop for the best products online.</p>
+
+</div>
+
+
+<div class="footer-section">
+
+<h4>Quick Links</h4>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="cart.html">Cart</a></li>
+
+</ul>
+
+</div>
+
+
+<div class="footer-section">
+
+<h4>Follow Us</h4>
+
+<ul>
+
+<li><a href="#">Facebook</a></li>
+<li><a href="#">Instagram</a></li>
+<li><a href="#">Twitter</a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+<div class="footer-bottom">
+
+<p>© 2026 SmartShop. All Rights Reserved.</p>
+
+</div>
+
+</footer>
+
+</body>
+
+</html>

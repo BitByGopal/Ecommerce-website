@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Product Details</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h2 id="productName"></h2>
+
+<p id="productPrice"></p>
+
+<script>
+
+let params = new URLSearchParams(window.location.search);
+
+let name = params.get("name");
+
+let price = params.get("price");
+
+document.getElementById("productName").innerText = name;
+
+document.getElementById("productPrice").innerText = "Price: ₹"+price;
+
+</script>
+
+<footer class="footer">
+
+<div class="footer-container">
+
+<div class="footer-section">
+
+<h3>SmartShop</h3>
+
+<p>Your one-stop shop for the best products online.</p>
+
+</div>
+
+
+<div class="footer-section">
+
+<h4>Quick Links</h4>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="cart.html">Cart</a></li>
+
+</ul>
+
+</div>
+
+
+<div class="footer-section">
+
+<h4>Follow Us</h4>
+
+<ul>
+
+<li><a href="#">Facebook</a></li>
+<li><a href="#">Instagram</a></li>
+<li><a href="#">Twitter</a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+<div class="footer-bottom">
+
+<p>© 2026 SmartShop. All Rights Reserved.</p>
+
+</div>
+
+</footer>
+
+</body>
+
+</html>
