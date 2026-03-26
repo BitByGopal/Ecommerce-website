@@ -1,22 +1,22 @@
 const products = [
 
-{ id:1, name:"White T-Shirt", price:999, image:"images/product1.png", category:"clothing" },
+{ id:1, name:"White T-Shirt", price:999, image:"product1.png", category:"clothing" },
 
-{ id:2, name:"Black T-shirt", price:1499, image:"images/product2.png", category:"clothing" },
+{ id:2, name:"Black T-shirt", price:1499, image:"product2.png", category:"clothing" },
 
-{ id:3, name:"Cream T-shirt", price:1999, image:"images/product3.png", category:"shoes" },
+{ id:3, name:"Cream T-shirt", price:1999, image:"product3.png", category:"shoes" },
 
-{ id:4, name:"Black T-Shirt", price:999, image:"images/product4.png", category:"clothing" },
+{ id:4, name:"Black T-Shirt", price:999, image:"product4.png", category:"clothing" },
 
-{ id:5, name:"White T-Shirt", price:999, image:"images/product5.png", category:"clothing" },
+{ id:5, name:"White T-Shirt", price:999, image:"product5.png", category:"clothing" },
 
-{ id:6, name:"Black T-Shirt", price:999, image:"images/product6.png", category:"clothing" },
+{ id:6, name:"Black T-Shirt", price:999, image:"product6.png", category:"clothing" },
 
-{ id:7, name:"Dark Blue T-Shirt", price:999, image:"images/product7.png", category:"clothing" },
+{ id:7, name:"Dark Blue T-Shirt", price:999, image:"product7.png", category:"clothing" },
 
-{ id:8, name:"White T-Shirt", price:999, image:"images/product8.png", category:"clothing" },
+{ id:8, name:"White T-Shirt", price:999, image:"product8.png", category:"clothing" },
 
-{ id:9, name:"Red T-Shirt", price:999, image:"images/product9.png", category:"clothing" },
+{ id:9, name:"Red T-Shirt", price:999, image:"product9.png", category:"clothing" },
 
 ];
 
