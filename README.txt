@@ -1,7 +1,7 @@
 📌 SmartShop – E-Commerce Website
 
 SmartShop is a simple and responsive e-commerce website built using HTML, CSS, and JavaScript. It allows users to browse products, search and filter items, and manage a shopping cart using local storage.
-
+🌐 **Live:** [BitByGopal.github.io/portfolio](https://bitbygopal.github.io/Ecommerce-website/products.html)
 🚀 Features
 🛍️ Product listing page
 🔍 Search functionality
@@ -94,12 +94,7 @@ Got it 👍 — here’s your updated README with Live Demo section (you can pas
 
 SmartShop is a simple and responsive e-commerce website built using HTML, CSS, and JavaScript. It allows users to browse products, search and filter items, and manage a shopping cart using local storage.
 
-🌐 Live Demo
 
-🚀 Live Website:
-👉 Click Here to View
-
-🔁 https://bitbygopal.github.io/Ecommerce-website/products.html
 
 🚀 Features
 🛍️ Product listing page
