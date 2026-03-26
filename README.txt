@@ -99,7 +99,7 @@ SmartShop is a simple and responsive e-commerce website built using HTML, CSS, a
 🚀 Live Website:
 👉 Click Here to View
 
-🔁 Replace https://your-live-link-here.com with your deployed link (Netlify / Vercel)
+🔁 https://bitbygopal.github.io/Ecommerce-website/products.html
 
 🚀 Features
 🛍️ Product listing page
